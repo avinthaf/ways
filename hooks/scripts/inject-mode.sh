@@ -26,11 +26,18 @@ case "$MODE" in
   *[!a-z-]*) exit 0 ;;
 esac
 
-RULES_FILE="${CLAUDE_PLUGIN_ROOT}/skills/ways-rephrase/modes/${MODE}.md"
+MODES_DIR="${CLAUDE_PLUGIN_ROOT}/skills/ways-rephrase/modes"
+RULES_FILE="${MODES_DIR}/${MODE}.md"
 [ -f "$RULES_FILE" ] || exit 0
+
+SHARED_FILE="${MODES_DIR}/_shared.md"
+SHARED=""
+[ -f "$SHARED_FILE" ] && SHARED=$(cat "$SHARED_FILE")
 
 RULES=$(cat "$RULES_FILE")
 FULL_TEXT="The user has an active 'ways' rewrite mode set. Apply these rules to every response you write:
+
+${SHARED}
 
 ${RULES}"
 

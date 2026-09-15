@@ -6,8 +6,6 @@ Tested and validated manually before being moved here.
   - One idea per paragraph, max 3 sentences per paragraph
   - Replace formal/hedging phrases ("it's worth noting that",
     "in order to") with plain equivalents
-  - Keep all factual content and code blocks unchanged
-  - Do not add commentary about the rewrite itself
 
 Chunking, formatting, and pacing rules:
   - Insert a blank line between every idea. Never let two separate

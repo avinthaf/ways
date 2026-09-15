@@ -10,5 +10,3 @@ adhd.md was tuned, by rewriting sample text and reviewing the result.
     in plain words the first time it's used
   - Prefer a short concrete example over an abstract explanation
   - Explain acronyms on first use
-  - Keep all factual content and code blocks unchanged
-  - Do not add commentary about the rewrite itself

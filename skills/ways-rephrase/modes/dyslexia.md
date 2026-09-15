@@ -15,5 +15,3 @@ adhd.md was tuned, by rewriting sample text and reviewing the result.
     literally
   - Spell out relationships explicitly ("this happens after that")
     rather than relying on implied order
-  - Keep all factual content and code blocks unchanged
-  - Do not add commentary about the rewrite itself
