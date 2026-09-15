@@ -1,0 +1,5 @@
+{
+  "name": "ways",
+  "description": "What Are You Saying? Rewrites LLM output for readability using selectable modes (ADHD, dyslexia, dumb-it-down).",
+  "version": "0.1.0"
+}
