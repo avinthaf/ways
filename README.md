@@ -10,7 +10,7 @@ less bullet-point clutter, and lets you pick a mode suited to how you read.
 ## Install
 
 ```
-/plugin marketplace add <github-owner>/ways
+/plugin marketplace add avinthaf/ways
 /plugin install ways@ways-marketplace
 ```
 
