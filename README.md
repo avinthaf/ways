@@ -39,6 +39,27 @@ it applies everywhere, in every repo, until you change it.
   the current section — no special keyword needed. Trades away plan
   mode's file-edit lock for lower reading load.
 
+## Uninstall
+
+```
+/plugin uninstall ways
+```
+
+Or from the CLI:
+
+```
+claude plugin uninstall ways@ways-marketplace
+```
+
+This also deletes your saved mode (`~/.claude/plugins/data/ways/`).
+
+Add `--keep-data` to the CLI version if you want to reinstall later
+without re-running `/ways:ways-mode`:
+
+```
+claude plugin uninstall ways@ways-marketplace --keep-data
+```
+
 ## Modes
 
 | Mode | Status |
